@@ -2,6 +2,22 @@
 
 #include  "stdio.h"
 
+
+dog::dog()
+{
+    name = "";
+    x = 0;
+    y = 0;
+}
+
+dog::~dog()
+{
+    name = "";
+    x = 0;
+    y = 0;
+    printf("\ndog::Destruct");
+}
+
 const char* dog::GetKindAnimal()
 {
     printf("\dog::GetKindAnimal: Dog");

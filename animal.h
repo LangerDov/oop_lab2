@@ -1,9 +1,6 @@
 #pragma once
 class animal
 {
-	animal();
-	animal(const char* name);
-	~animal();
 	virtual const char* GetName();
 	virtual void SetName(const char* name);
 	virtual  const char* GetKindAnimal() = 0;

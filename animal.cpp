@@ -1,16 +1,6 @@
 #include "animal.h"
 #include "stdio.h"
-animal::animal()
-{
-    name = "";
-    x = 0;
-    y = 0;
-}
 
-animal::animal(const char* name)
-{
-    this->name = name;
-}
 
 const char* animal::GetName()
 {
